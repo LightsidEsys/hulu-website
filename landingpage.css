@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@300;400;600;700&display=swap');
 body {
-    background: #141414 !important;
+    background: rgb(20, 20, 20) !important;
     font-family: 'Rubik', sans-serif;
     overflow-x: hidden;
     position: relative;
@@ -184,22 +184,32 @@ h5 {
 
 .slider1{
     position: absolute;
-    top: 670px;
+    top: 680px;
     z-index: 500;
+}
+
+.slider-box .trend {
+    font-size: 20px !important;
+    margin-bottom: 8px !important;
 }
 
 .card {
     width: 250px;
-    background: #141414 !important;
+    background: rgb(24, 24, 24) !important;
     border-radius: 4px;
     transition: 0.2s linear;
     margin: 3px;
     position: relative;
+    /* box-shadow: 0 0 20px !important; */
 }
 
 .card:hover {
-    transform: scale(1.4);
+    transition: 0.2s;
+    transform: scale(1.4) translateY(-50px);
     z-index: 10;
+    color: #000;
+    border-radius: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px!important;
 }
 
 .card-icon {
@@ -214,9 +224,9 @@ h5 {
     width: 100%;
 }
 
-.carousel-control-prev {
+/* .carousel-control-prev {
     margin-top: 20px;
-}
+} */
 
 .hulu-card-text {
     font-size: 12px;
@@ -235,11 +245,233 @@ h5 {
     display: block;
 }
 
-/* .hulu-home-video i {
-    color: white;
-} */
+.slider2 {
+    position: absolute;
+    top: 900px;
+    z-index: 500;
+}
 
+.slider3 {
+    /* margin-top: 185px; */
+    position: absolute;
+    top: 1120px;
+    z-index: 500;
+}
+
+.slider4 {
+    position: absolute;
+    top: 1340px;
+    z-index: 500;
+}
+
+.slider5 {
+    position: absolute;
+    top: 1560px;
+    z-index: 500;
+}
+
+.slider6 {
+    position: absolute;
+    top: 1780px;
+    z-index: 500;
+}
+
+.slider7 {
+    position: absolute;
+    top: 2000px;
+    z-index: 500;
+}
+
+.slider8 {
+    position: absolute;
+    top: 2220px;
+    z-index: 500;
+}
+
+.slider1:hover {
+    z-index: 510;
+}
+
+.slider2:hover {
+    z-index: 520;
+}
+
+.slider3:hover {
+    z-index: 530;
+}
+.slider4:hover {
+    z-index: 540;
+}
+.slider5:hover {
+    z-index: 550;
+}
+
+.slider6:hover {
+    z-index: 560;
+}
+.slider7:hover {
+    z-index: 570;
+}
+.slider8:hover {
+    z-index: 580;
+}
+
+.footer {
+    margin-top: 1600px;             
+    height: 400px;
+}
+
+ul {
+    list-style: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.646);
+    font-weight: 100;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 200;
+    color: green !important;
+    margin-left: 29px;
+}
 /* media queries */
+@media(max-width:1280px) {
+    .footer {
+        margin-top: 1700px;
+    }
+
+}
+
+@media(max-width:1024px) {
+    nav.hulu-navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-brand img{
+        width: 43px;
+    }
+
+    .hulu-dropdown-box {
+        display: block;
+    }
+
+    .hulu-nav {
+        display: none;
+    }
+
+    .hulu-home-video {
+        display: none;
+    }
+
+    .slider-box section{
+        margin-top: -280px;
+    }
+
+    .slider-box .trend {
+        margin-top: -320px;
+    }
+
+    .slider-box .move {
+        margin-top: -320px;
+    }
+    .container-footer {
+        margin-bottom: -300px !important;
+    }
+    .slider2 {
+        margin-top: -320px !important;
+    }
+
+    .slider3 {
+        margin-top: -360px !important;
+    }
+
+    .slider4 {
+        margin-top: -400px !important;
+    }
+
+    .slider5 {
+        margin-top: -440px !important;
+    }
+
+    .slider6 {
+        margin-top: -480px !important;
+    }
+
+    .slider7 {
+        margin-top: -520px !important;
+    }
+
+    .slider8 {
+        margin-top: -560px !important;
+    }
+
+    .card-body {
+        display: none !important;
+    }
+
+    .footer {
+       display: none;
+    }
+
+    .slider1 .card:nth-child(5) {
+        display: none;
+    }
+    .slider1 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider2 .card:nth-child(5) {
+        display: none;
+    }
+    .slider2 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider3 .card:nth-child(5) {
+        display: none;
+    }
+    .slider3 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider4 .card:nth-child(5) {
+        display: none;
+    }
+    .slider4 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider5 .card:nth-child(5) {
+        display: none;
+    }
+    .slider5 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider6 .card:nth-child(5) {
+        display: none;
+    }
+    .slider6 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider7 .card:nth-child(5) {
+        display: none;
+    }
+    .slider7 .card:nth-child(6) {
+        display: none;
+    }
+    .slider8 .card:nth-child(5) {
+        display: none;
+    }
+    .slider8 .card:nth-child(6) {
+        display: none;
+    }
+
+}
 
 @media(max-width:768px){
     nav.hulu-navbar {
@@ -286,6 +518,10 @@ h5 {
         width: 350px;
     }
 
+    .content .left {
+        margin-top: -30px !important;
+    }
+
     .content .left button {
         font-size: 15px !important;
         width: max-content !important;
@@ -301,7 +537,7 @@ h5 {
     }
 
     .card {
-        width: 150px;
+        width: 100%;
         /* margin-top: -40px; */
     }
 
@@ -314,8 +550,177 @@ h5 {
     }
 
     .slider1 {
-        top: 375px;
+        width: 100%;
+        /* top: 375px; */
         margin-left: 0px;
+        margin-top: -40px;
+    }
+    .card-body {
+        top: 100px;
+    }
+
+    .slider1 .card:nth-child(4) {
+        display: none;
+    }
+    .slider1 .card:nth-child(5) {
+        display: none;
+    }
+    .slider1 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider2 {
+        margin-top: 80px;
+    }
+
+    .slider2 .card:nth-child(4) {
+        display: none;
+    }
+    .slider2 .card:nth-child(5) {
+        display: none;
+    }
+    .slider2 .card:nth-child(6) {
+        display: none;
+    }
+    .slider3 .card:nth-child(4) {
+        display: none;
+    }
+    .slider3 .card:nth-child(5) {
+        display: none;
+    }
+    .slider3 .card:nth-child(6) {
+        display: none;
+    }
+    .slider4 .card:nth-child(4) {
+        display: none;
+    }
+    .slider4 .card:nth-child(5) {
+        display: none;
+    }
+    .slider4 .card:nth-child(6) {
+        display: none;
+    }
+    .slider5 .card:nth-child(4) {
+        display: none;
+    }
+    .slider5 .card:nth-child(5) {
+        display: none;
+    }
+    .slider5 .card:nth-child(6) {
+        display: none;
+    }
+    .slider6 .card:nth-child(4) {
+        display: none;
+    }
+    .slider6 .card:nth-child(5) {
+        display: none;
+    }
+    .slider6 .card:nth-child(6) {
+        display: none;
+    }
+    .slider7 .card:nth-child(4) {
+        display: none;
+    }
+    .slider7 .card:nth-child(5) {
+        display: none;
+    }
+    .slider7 .card:nth-child(6) {
+        display: none;
+    }
+    .slider8 .card:nth-child(4) {
+        display: none;
+    }
+    .slider8 .card:nth-child(5) {
+        display: none;
+    }
+    .slider8 .card:nth-child(6) {
+        display: none;
+    }
+
+    .slider1 {
+        margin-top: -310px !important;
+    }
+
+    .slider2 {
+        margin-top: -350px !important;
+    }
+    .slider3 {
+        margin-top: -390px !important;
+    }
+    .slider4{
+        margin-top: -430px !important;
+    }
+    .slider5 {
+        margin-top: -470px !important;
+    }
+    .slider6 {
+        margin-top: -510px !important;
+    }
+    .slider7 {
+        margin-top: -550px !important;
+    }
+    .slider8 {
+        margin-top: -590px !important;
     }
 }
 
+@media(max-width:415px) {
+    .slider-box .trend {
+        font-size: 10px !important;
+    }
+
+    .slider1 .card:nth-child(3) {
+        display: none;
+    }
+    .slider2 .card:nth-child(3) {
+        display: none;
+    }
+    .slider3 .card:nth-child(3) {
+        display: none;
+    }
+    .slider4 .card:nth-child(3) {
+        display: none;
+    }
+    .slider5 .card:nth-child(3) {
+        display: none;
+    }
+    .slider6 .card:nth-child(3) {
+        display: none;
+    }
+    .slider7 .card:nth-child(3) {
+        display: none;
+    }
+    .slider8 .card:nth-child(3) {
+        display: none;
+    }
+
+    .slider-box .trend {
+        margin-top: -310px;
+    }
+
+
+    .slider1 {
+        margin-top: -325px !important;
+    }
+    .slider2 {
+        margin-top: -415px !important;
+    }
+    .slider3 {
+        margin-top: -505px !important;
+    }
+    .slider4 {
+        margin-top: -595px !important;
+    }
+    .slider5 {
+        margin-top: -685px !important;
+    }
+    .slider6 {
+        margin-top: -775px !important;
+    }
+    .slider7 {
+        margin-top: -865px !important;
+    }
+    .slider8 {
+        margin-top: -955px !important;
+    }
+}
