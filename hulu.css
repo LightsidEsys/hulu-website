@@ -100,7 +100,7 @@ h4 {
 /* header */
 .header {
     height: 660px;
-    background: url(../image/hulu/header.jpg)
+    background: url(./hulu/header.jpg)
     no-repeat center center / cover;
 }
 
@@ -223,16 +223,16 @@ h4 {
 }
 
 .cover-1 {
-    background: url(../image/hulu/cover-1.jpg) no-repeat center center / cover;
+    background: url(./hulu/cover-1.jpg) no-repeat center center / cover;
 }
 .cover-2 {
-    background: url(../image/hulu/cover-2.jpg) no-repeat center center / cover;
+    background: url(./hulu/cover-2.jpg) no-repeat center center / cover;
 }
 .cover-3 {
-    background: url(../image/hulu/cover-3\ \(1\).jpg) no-repeat center center / cover;
+    background: url(./hulu/cover-3\ \(1\).jpg) no-repeat center center / cover;
 }
 .cover-4 {
-    background: url(../image/hulu/cover-4\ \(1\).jpg) no-repeat center center / cover;
+    background: url(./hulu/cover-4\ \(1\).jpg) no-repeat center center / cover;
 }
 
 .live {
@@ -266,7 +266,7 @@ h4 {
 /* live-sports */
 .live-sports {
     height: 800px;
-    background: url(../image/hulu/live-sports.jpg) no-repeat center center / cover;
+    background: url(./hulu/live-sports.jpg) no-repeat center center / cover;
     position: relative;
 }
 
@@ -290,7 +290,7 @@ h4 {
 }
 
 .live-sports-logos div {
-    background: url(../image/hulu/network-logo-bg.png) no-repeat center center / cover;
+    background: url(./hulu/network-logo-bg.png) no-repeat center center / cover;
     height: 60px;
     width: 60px;
     display: flex;
@@ -365,7 +365,7 @@ h4 {
 
 @media(max-width: 1022px) {
     .live-sports{
-        background: url(../image/hulu/live-sports-small.jpg) no-repeat center center / cover;
+        background: url(./hulu/live-sports-small.jpg) no-repeat center center / cover;
     }
 }
 
@@ -772,7 +772,7 @@ h4 {
 
     .live-sports{
         /* background: none; */
-        background: url(../image/hulu/live-sports-small.jpg) no-repeat center center / cover;
+        background: url(./hulu/live-sports-small.jpg) no-repeat center center / cover;
         /* background-size: cover; */
     }
 
