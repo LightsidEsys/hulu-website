@@ -18,7 +18,7 @@ nav.hulu-padding-right {
 } */
 
 nav.hulu-navbar {
-    /* background-color: #0c0c0c; */
+    background-color: #0c0c0c;
     position: fixed;
     width: 100vw;
     z-index: 999;
@@ -210,12 +210,29 @@ h5 {
     cursor: pointer;
 }
 
+.card-width {
+    width: 100%;
+}
+
 .carousel-control-prev {
     margin-top: 20px;
 }
 
 .hulu-card-text {
     font-size: 12px;
+}
+
+.card-body {
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+.card:hover > .card-body {
+    display: block;
 }
 
 /* .hulu-home-video i {
