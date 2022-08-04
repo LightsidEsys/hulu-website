@@ -395,24 +395,28 @@ ul {
     .container-footer {
         margin-bottom: -300px !important;
     }
+    .slider1 {
+        margin-top: 300px !important;
+    }
+
     .slider2 {
-        margin-top: -320px !important;
+        margin-top: 260px !important;
     }
 
     .slider3 {
-        margin-top: -360px !important;
+        margin-top: 230px !important;
     }
 
     .slider4 {
-        margin-top: -400px !important;
+        margin-top: 210px !important;
     }
 
     .slider5 {
-        margin-top: -440px !important;
+        margin-top: 190px !important;
     }
 
     .slider6 {
-        margin-top: -480px !important;
+        margin-top: 170px !important;
     }
 
     .slider7 {
@@ -652,31 +656,6 @@ ul {
         display: none;
     }
 
-    .slider1 {
-        margin-top: -310px !important;
-    }
-
-    .slider2 {
-        margin-top: -350px !important;
-    }
-    .slider3 {
-        margin-top: -390px !important;
-    }
-    .slider4{
-        margin-top: -430px !important;
-    }
-    .slider5 {
-        margin-top: -470px !important;
-    }
-    .slider6 {
-        margin-top: -510px !important;
-    }
-    .slider7 {
-        margin-top: -550px !important;
-    }
-    .slider8 {
-        margin-top: -590px !important;
-    }
 }
 
 @media(max-width:415px) {
@@ -715,27 +694,36 @@ ul {
 
 
     .slider1 {
-        margin-top: -325px !important;
+        margin-top: 270px !important;
     }
     .slider2 {
-        margin-top: -415px !important;
+        margin-top: 190px !important;
     }
     .slider3 {
-        margin-top: -505px !important;
+        margin-top: 110px !important;
     }
     .slider4 {
-        margin-top: -595px !important;
+        margin-top: 40px !important;
     }
     .slider5 {
-        margin-top: -685px !important;
+        margin-top: -30px !important;
     }
     .slider6 {
-        margin-top: -775px !important;
-    }
-    .slider7 {
-        margin-top: -865px !important;
-    }
-    .slider8 {
-        margin-top: -955px !important;
+        margin-top: -100px !important;
     }
 }
+
+/* media */
+
+@media(max-width:1280px) {
+    .footer {
+        margin-top: 1400px !important;
+        /* width: 1000px !important; */
+        /* font-size: 20px !important; */
+    }
+
+    .footer li {
+        font-size: 17px !important;
+    }
+}
+
