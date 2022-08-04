@@ -35,7 +35,7 @@ nav.hulu-navbar {
 
 }
 
-.hulu-row .home {
+.hulu-row .tvshows {
     font-weight: bold;
     color: #fff;
 }
@@ -130,9 +130,9 @@ h5 {
     width: 100%;
     position: relative;
     z-index: 10;
+    
 }
-
-.hulu-home-video video {
+.hulu-home-video img {
     width: 100%;
 }
 
@@ -165,10 +165,10 @@ h5 {
 }
 
 .hulu-home-video .content .left img{
-    width: 600px;
+    width: 550px;
     height: auto;
     margin-top: 190px;
-    margin-left: -120px;
+    /* margin-left: -20px; */
 }
 
 .content .left button {

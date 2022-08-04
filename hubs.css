@@ -35,7 +35,7 @@ nav.hulu-navbar {
 
 }
 
-.hulu-row .home {
+.hulu-row .tvshows {
     font-weight: bold;
     color: #fff;
 }
@@ -85,6 +85,11 @@ nav.hulu-navbar {
     padding-left: 20px;
 }
 
+.hulu-nav .hubs {
+    font-weight: bold;
+    color: #fff;
+}
+
 .hulu-nav button {
     background-color: transparent;
     color: rgba(255, 255, 255, 0.719);
@@ -130,9 +135,9 @@ h5 {
     width: 100%;
     position: relative;
     z-index: 10;
+    
 }
-
-.hulu-home-video video {
+.hulu-home-video img {
     width: 100%;
 }
 
@@ -165,10 +170,10 @@ h5 {
 }
 
 .hulu-home-video .content .left img{
-    width: 600px;
+    width: 550px;
     height: auto;
     margin-top: 190px;
-    margin-left: -120px;
+    /* margin-left: -20px; */
 }
 
 .content .left button {
@@ -189,7 +194,7 @@ h5 {
 
 .slider1{
     position: absolute;
-    top: 680px;
+    top: 90px;
     z-index: 500;
 }
 
@@ -252,45 +257,52 @@ h5 {
 
 .slider2 {
     position: absolute;
-    top: 900px;
+    top: 310px;
     z-index: 500;
+    display: none;
 }
 
 .slider3 {
     /* margin-top: 185px; */
     position: absolute;
-    top: 1120px;
+    top: 530px;
     z-index: 500;
+    display: none;
 }
 
 .slider4 {
     position: absolute;
-    top: 1340px;
+    top: 740px;
     z-index: 500;
+    display: none;
 }
 
 .slider5 {
     position: absolute;
-    top: 1560px;
+    top: 950px;
     z-index: 500;
+    display: none;
 }
 
 .slider6 {
     position: absolute;
-    top: 1780px;
+    top: 1160px;
     z-index: 500;
+    display: none;
 }
 
 .slider7 {
     position: absolute;
     top: 2000px;
     z-index: 500;
+    display: none;
 }
 
 .slider8 {
     position: absolute;
     top: 2220px;
     z-index: 500;
+    display: none;
 }
 
 .slider1:hover {
@@ -322,8 +334,11 @@ h5 {
 }
 
 .footer {
-    margin-top: 1600px;             
+    margin-top: 1400px;             
     height: 400px;
+    /* margin-bottom: -200px !important; */
+    position: absolute;
+    /* bottom: 0px; */
 }
 
 ul {
